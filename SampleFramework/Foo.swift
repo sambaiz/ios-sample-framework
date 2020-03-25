@@ -8,6 +8,6 @@
 
 import Foundation
 
-@objc func Foo() -> String {
+func Foo() -> String {
     return "FOO!"
 }
