@@ -8,6 +8,6 @@
 
 import Foundation
 
-func Foo() -> String {
+public func Foo() -> String {
     return "FOO!"
 }

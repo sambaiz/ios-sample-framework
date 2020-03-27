@@ -6,6 +6,6 @@
 //  Copyright © 2020 sambaiz. All rights reserved.
 //
 
-func Bar() -> String {
+public func Bar() -> String {
     return "Bar!"
 }
