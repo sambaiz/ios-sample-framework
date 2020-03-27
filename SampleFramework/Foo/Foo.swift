@@ -10,4 +10,4 @@ import Foundation
 
 public func Foo() -> String {
     return "FOO!"
-} b
+}
