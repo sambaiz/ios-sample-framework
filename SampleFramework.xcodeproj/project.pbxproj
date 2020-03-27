@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9130D96E242DD45800B9E107 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9130D96D242DD45800B9E107 /* Bar.swift */; };
 		9151231C242B362E00E673F2 /* SampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91512312242B362E00E673F2 /* SampleFramework.framework */; };
 		91512321242B362E00E673F2 /* SampleFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91512320242B362E00E673F2 /* SampleFrameworkTests.swift */; };
 		91512323242B362E00E673F2 /* SampleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 91512315242B362E00E673F2 /* SampleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9130D96D242DD45800B9E107 /* Bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
 		91512312242B362E00E673F2 /* SampleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91512315242B362E00E673F2 /* SampleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleFramework.h; sourceTree = "<group>"; };
 		91512316242B362E00E673F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9130D96B242DD43C00B9E107 /* Foo */ = {
+			isa = PBXGroup;
+			children = (
+				9151232C242B369400E673F2 /* Foo.swift */,
+			);
+			path = Foo;
+			sourceTree = "<group>";
+		};
+		9130D96C242DD44900B9E107 /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				9130D96D242DD45800B9E107 /* Bar.swift */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
 		91512308242B362E00E673F2 = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +91,10 @@
 		91512314242B362E00E673F2 /* SampleFramework */ = {
 			isa = PBXGroup;
 			children = (
+				9130D96C242DD44900B9E107 /* Bar */,
+				9130D96B242DD43C00B9E107 /* Foo */,
 				91512315242B362E00E673F2 /* SampleFramework.h */,
 				91512316242B362E00E673F2 /* Info.plist */,
-				9151232C242B369400E673F2 /* Foo.swift */,
 			);
 			path = SampleFramework;
 			sourceTree = "<group>";
@@ -200,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9151232D242B369400E673F2 /* Foo.swift in Sources */,
+				9130D96E242DD45800B9E107 /* Bar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
