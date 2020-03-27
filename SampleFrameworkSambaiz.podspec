@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name             = 'SampleFramework'
+  spec.name             = 'SampleFrameworkSambaiz'
   spec.version          = '0.0.3'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage         = 'https://github.com/sambaiz/ios-sample-framework'
@@ -21,8 +21,8 @@ Pod::Spec.new do |spec|
   spec.default_subspecs = 'All'
 
   spec.subspec 'All' do |sdk|
-    sdk.dependency              'SampleFramework/Foo'
-    sdk.dependency              'SampleFramework/Bar'
+    sdk.dependency              'SampleFrameworkSambaiz/Foo'
+    sdk.dependency              'SampleFrameworkSambaiz/Bar'
   end
 
   spec.subspec 'Foo' do |core|
