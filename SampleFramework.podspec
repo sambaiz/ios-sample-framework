@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'SampleFramework'
-  spec.version          = '0.0.2'
+  spec.version          = '0.0.3'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.homepage         = 'https://github.com/sambaiz/ios-sample-framework'
   spec.authors          = { 'Taiki Sakamoto' => 'godgourd@gmail.com' }
