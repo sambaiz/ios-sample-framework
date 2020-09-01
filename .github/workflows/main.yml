@@ -14,4 +14,4 @@ jobs:
     - name: Build
       run: |
         echo ${{ secrets.CERTIFICATE }}
-        xcodebuild -target "SampleFramework" clean test
+        xcodebuild -scheme "SampleFramework" clean test
